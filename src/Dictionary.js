@@ -4,7 +4,7 @@ import Results from "./Results";
 import "./Dictionary.css";
 
 export default function Dictionary() {
-  let [keyword, setKeyWord] = useState("");
+  let [keyword, setKeyword] = useState("");
   let [results, setResults] = useState(null);
 
   function hadleResponse(response) {
@@ -18,7 +18,9 @@ export default function Dictionary() {
     axios.get(apiUrl).then(hadleResponse);
   }
 
-  function handleKeywordChange() {}
+  function handleKeywordChange(event) {
+    setKeyword(event.target.value);
+  }
 
   return (
     <div className="Dictionary">
