@@ -1,0 +1,47 @@
+h1 {
+  color: #1720f5;
+  -webkit-text-stroke: 1.5px white;
+  text-transform: uppercase;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 4px;
+  font-size: 73px;
+  text-align: center;
+  padding-top: 85px;
+}
+
+h5 {
+  text-align: center;
+  color: white;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 1px;
+  padding-top: 20px;
+}
+
+button {
+  background: #1720f5;
+  border: 1px solid white;
+  border-radius: 6px;
+  width: 150px;
+  padding: 5px;
+  margin-left: 646px;
+  margin-top: 40px;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 1px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+
+.Dictionary {
+  background: #1720f5;
+  height: 450px;
+}
+
+.Dictionary input {
+  width: 550px;
+  height: 40px;
+  border-radius: 6px;
+  border: 1px solid white;
+  margin-top: 40px;
+  margin-left: 453px;
+}
